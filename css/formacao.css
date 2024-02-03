@@ -105,7 +105,7 @@
   display: block;
   height: 24px;
   width: 24px;
-  background: url(/portifolio/img/cursos.svg);
+  background: url(/img/cursos.svg);
   position: absolute;
   left: -35px;
   top: -3px;
@@ -145,7 +145,7 @@
   display: block;
   height: 24px;
   width: 24px;
-  background: url(/portifolio/img/idiomas.svg);
+  background: url(/img/idiomas.svg);
   position: absolute;
   left: -35px;
   top: -3px;
