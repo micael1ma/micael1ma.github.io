@@ -1,0 +1,66 @@
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 120px;
+  background: url(/portifolio/img/detalhe.svg);
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  z-index: -1;
+}
+
+main p {
+  color: #525252;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  main h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 635px) {
+  main {
+    display: block;
+  }
+
+  main img {
+    max-width: 50%;
+    align-items: center;
+    margin: auto;
+  }
+
+  main h1,
+  p {
+    text-align: center;
+  }
+}

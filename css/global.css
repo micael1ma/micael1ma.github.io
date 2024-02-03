@@ -1,0 +1,30 @@
+body {
+  font-family: "Fira Sans";
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  word-break: break-all;
+  font-size: 9rem;
+  line-height: 9rem;
+  text-transform: uppercase;
+}
