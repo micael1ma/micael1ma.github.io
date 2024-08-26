@@ -9,9 +9,8 @@
 }
 
 .introducao img {
- 
   max-width: 360px;
-  max-height: 520px;
+  max-height: 440px;
   border-radius: 10px;
   object-fit: cover;
 }
